@@ -5,12 +5,14 @@ function SimpleCounter() {
 
   const incrementCount = () => {
     setCounter(counter + 1);
+    /**Learning:  even if this code above is repeated multiple times, the counter will increase only by 1.*/
   };
   const decrementCount = () => {
     setCounter(counter - 1);
   };
   return (
     <div>
+      <p>Simple Counter</p>
       <div className="counter-count">{counter}</div>
       <button className="btn plus" onClick={() => incrementCount()}>
         +

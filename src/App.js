@@ -1,11 +1,13 @@
 import "./App.css";
 import SimpleCounter from "./components/SimpleCounter";
+import ReverseCounter from "./components/ReverseCounter";
 
 function App() {
   return (
     <div className="App">
-      <h1>Simple Counter</h1>
+      <h1>Counter</h1>
       <SimpleCounter />
+      <ReverseCounter />
     </div>
   );
 }
