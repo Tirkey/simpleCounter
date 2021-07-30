@@ -22,3 +22,32 @@ function ReverseCounter() {
 }
 
 export default ReverseCounter;
+
+/*
+import React, { useState, useEffect } from "react";
+
+const Counter = () => {
+  const [count, setCount] = useState(10);
+  // setTimeout(() => {
+  //   console.log("Hello");
+  //   if (count > 0) {
+  //     setCount(count - 1);
+  //   }
+  // }, 2000);
+
+  useEffect(() => {
+    if (!count) {
+      setCount(10);
+    }
+    let interval = setInterval(() => {
+      setCount(count - 1);
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [count]);
+  return <div>::{count}::</div>;
+};
+
+export default Counter;
+
+*/
